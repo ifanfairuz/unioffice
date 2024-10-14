@@ -1,4 +1,4 @@
-module github.com/unidoc/unioffice
+module github.com/ifanfairuz/unioffice
 
 go 1.18
 
@@ -6,7 +6,7 @@ require (
 	github.com/richardlehane/msoleps v1.0.3
 	github.com/stretchr/testify v1.9.0
 	github.com/unidoc/emf v0.1.0
-	github.com/unidoc/unipdf/v3 v3.55.0
+	github.com/ifanfairuz/unipdf/v3 v3.55.0
 	github.com/unidoc/unitype v0.4.0
 	golang.org/x/image v0.18.0
 )

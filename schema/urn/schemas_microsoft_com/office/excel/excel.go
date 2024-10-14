@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package excel ;import (_e "encoding/xml";_g "fmt";_eb "github.com/unidoc/unioffice";_da "github.com/unidoc/unioffice/common/logger";_b "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";);type CT_ClientData struct{ObjectTypeAttr ST_ObjectType ;MoveWithCells _b .ST_TrueFalseBlank ;
+package excel ;import (_e "encoding/xml";_g "fmt";_eb "github.com/ifanfairuz/unioffice";_da "github.com/ifanfairuz/unioffice/common/logger";_b "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";);type CT_ClientData struct{ObjectTypeAttr ST_ObjectType ;MoveWithCells _b .ST_TrueFalseBlank ;
 SizeWithCells _b .ST_TrueFalseBlank ;Anchor *string ;Locked _b .ST_TrueFalseBlank ;DefaultSize _b .ST_TrueFalseBlank ;PrintObject _b .ST_TrueFalseBlank ;Disabled _b .ST_TrueFalseBlank ;AutoFill _b .ST_TrueFalseBlank ;AutoLine _b .ST_TrueFalseBlank ;AutoPict _b .ST_TrueFalseBlank ;
 FmlaMacro *string ;TextHAlign *string ;TextVAlign *string ;LockText _b .ST_TrueFalseBlank ;JustLastX _b .ST_TrueFalseBlank ;SecretEdit _b .ST_TrueFalseBlank ;Default _b .ST_TrueFalseBlank ;Help _b .ST_TrueFalseBlank ;Cancel _b .ST_TrueFalseBlank ;Dismiss _b .ST_TrueFalseBlank ;
 Accel *int64 ;Accel2 *int64 ;Row *int64 ;Column *int64 ;Visible _b .ST_TrueFalseBlank ;RowHidden _b .ST_TrueFalseBlank ;ColHidden _b .ST_TrueFalseBlank ;VTEdit *int64 ;MultiLine _b .ST_TrueFalseBlank ;VScroll _b .ST_TrueFalseBlank ;ValidIds _b .ST_TrueFalseBlank ;

@@ -11,7 +11,7 @@
 
 // Package color provides color handling structures and functions for use across
 // all of the document types.
-package color ;import (_gf "fmt";_f "github.com/unidoc/unioffice";);var LemonChiffon =Color {0xFF,0xFA,0xCD,255,false };var DeepSkyBlue =Color {0x00,0xBF,0xFF,255,false };var SpringGreen =Color {0x00,0xFF,0x7F,255,false };var DarkSlateBlue =Color {0x48,0x3D,0x8B,255,false };
+package color ;import (_gf "fmt";_f "github.com/ifanfairuz/unioffice";);var LemonChiffon =Color {0xFF,0xFA,0xCD,255,false };var DeepSkyBlue =Color {0x00,0xBF,0xFF,255,false };var SpringGreen =Color {0x00,0xFF,0x7F,255,false };var DarkSlateBlue =Color {0x48,0x3D,0x8B,255,false };
 var CornflowerBlue =Color {0x64,0x95,0xED,255,false };var Aquamarine =Color {0x7F,0xFF,0xD4,255,false };var ForestGreen =Color {0x22,0x8B,0x22,255,false };var DarkGoldenRod =Color {0xB8,0x86,0x0B,255,false };var RosyBrown =Color {0xBC,0x8F,0x8F,255,false };
 var DimGrey =Color {0x69,0x69,0x69,255,false };var Teal =Color {0x00,0x80,0x80,255,false };var LightSteelBlue =Color {0xB0,0xC4,0xDE,255,false };var DarkOrange =Color {0xFF,0x8C,0x00,255,false };var White =Color {0xFF,0xFF,0xFF,255,false };
 

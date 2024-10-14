@@ -9,8 +9,8 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package vml ;import (_e "encoding/xml";_a "fmt";_d "github.com/unidoc/unioffice";_ee "github.com/unidoc/unioffice/common/logger";_c "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_ea "github.com/unidoc/unioffice/schema/soo/wml";_ag "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel";
-_f "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint";_b "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word";_gd "strconv";);type OfcCT_RelationTable struct{Rel []*OfcCT_Relation ;ExtAttr ST_Ext ;};
+package vml ;import (_e "encoding/xml";_a "fmt";_d "github.com/ifanfairuz/unioffice";_ee "github.com/ifanfairuz/unioffice/common/logger";_c "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_ea "github.com/ifanfairuz/unioffice/schema/soo/wml";_ag "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/office/excel";
+_f "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint";_b "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/office/word";_gd "strconv";);type OfcCT_RelationTable struct{Rel []*OfcCT_Relation ;ExtAttr ST_Ext ;};
 
 // ValidateWithPath validates the OfcCT_SignatureLine and its children, prefixing error messages with path
 func (_aegff *OfcCT_SignatureLine )ValidateWithPath (path string )error {if _agbdd :=_aegff .IssignaturelineAttr .ValidateWithPath (path +"/\u0049s\u0073\u0069\u0067\u006e\u0061\u0074\u0075\u0072e\u006c\u0069\u006e\u0065At\u0074\u0072");_agbdd !=nil {return _agbdd ;

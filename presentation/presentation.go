@@ -9,9 +9,9 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package presentation ;import (_dad "archive/zip";_ed "bytes";_cab "encoding/xml";_gf "errors";_cf "fmt";_ce "github.com/unidoc/unioffice";_bbd "github.com/unidoc/unioffice/common";_fa "github.com/unidoc/unioffice/common/logger";_bc "github.com/unidoc/unioffice/common/tempstorage";
-_bd "github.com/unidoc/unioffice/drawing";_ca "github.com/unidoc/unioffice/internal/formatutils";_cb "github.com/unidoc/unioffice/internal/license";_c "github.com/unidoc/unioffice/measurement";_dg "github.com/unidoc/unioffice/schema/soo/dml";_b "github.com/unidoc/unioffice/schema/soo/dml/chart";
-_da "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_d "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_ad "github.com/unidoc/unioffice/schema/soo/pml";_f "github.com/unidoc/unioffice/zippkg";_fd "image";_ee "image/jpeg";_df "io";_fab "math";
+package presentation ;import (_dad "archive/zip";_ed "bytes";_cab "encoding/xml";_gf "errors";_cf "fmt";_ce "github.com/ifanfairuz/unioffice";_bbd "github.com/ifanfairuz/unioffice/common";_fa "github.com/ifanfairuz/unioffice/common/logger";_bc "github.com/ifanfairuz/unioffice/common/tempstorage";
+_bd "github.com/ifanfairuz/unioffice/drawing";_ca "github.com/ifanfairuz/unioffice/internal/formatutils";_cb "github.com/ifanfairuz/unioffice/internal/license";_c "github.com/ifanfairuz/unioffice/measurement";_dg "github.com/ifanfairuz/unioffice/schema/soo/dml";_b "github.com/ifanfairuz/unioffice/schema/soo/dml/chart";
+_da "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_d "github.com/ifanfairuz/unioffice/schema/soo/pkg/relationships";_ad "github.com/ifanfairuz/unioffice/schema/soo/pml";_f "github.com/ifanfairuz/unioffice/zippkg";_fd "image";_ee "image/jpeg";_df "io";_fab "math";
 _cag "os";_bb "path";_fg "sort";_a "strconv";_g "strings";);
 
 // AddTable adds a new table to a placeholder.

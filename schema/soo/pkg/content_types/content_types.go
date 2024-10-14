@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package content_types ;import (_fd "encoding/xml";_c "fmt";_ff "github.com/unidoc/unioffice";_ce "github.com/unidoc/unioffice/common/logger";_b "regexp";);func (_dc *CT_Override )MarshalXML (e *_fd .Encoder ,start _fd .StartElement )error {start .Attr =append (start .Attr ,_fd .Attr {Name :_fd .Name {Local :"C\u006f\u006e\u0074\u0065\u006e\u0074\u0054\u0079\u0070\u0065"},Value :_c .Sprintf ("\u0025\u0076",_dc .ContentTypeAttr )});
+package content_types ;import (_fd "encoding/xml";_c "fmt";_ff "github.com/ifanfairuz/unioffice";_ce "github.com/ifanfairuz/unioffice/common/logger";_b "regexp";);func (_dc *CT_Override )MarshalXML (e *_fd .Encoder ,start _fd .StartElement )error {start .Attr =append (start .Attr ,_fd .Attr {Name :_fd .Name {Local :"C\u006f\u006e\u0074\u0065\u006e\u0074\u0054\u0079\u0070\u0065"},Value :_c .Sprintf ("\u0025\u0076",_dc .ContentTypeAttr )});
 start .Attr =append (start .Attr ,_fd .Attr {Name :_fd .Name {Local :"\u0050\u0061\u0072\u0074\u004e\u0061\u006d\u0065"},Value :_c .Sprintf ("\u0025\u0076",_dc .PartNameAttr )});e .EncodeToken (start );e .EncodeToken (_fd .EndElement {Name :start .Name });
 return nil ;};
 

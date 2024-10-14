@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package picture ;import (_c "encoding/xml";_e "github.com/unidoc/unioffice";_a "github.com/unidoc/unioffice/common/logger";_d "github.com/unidoc/unioffice/schema/soo/dml";);
+package picture ;import (_c "encoding/xml";_e "github.com/ifanfairuz/unioffice";_a "github.com/ifanfairuz/unioffice/common/logger";_d "github.com/ifanfairuz/unioffice/schema/soo/dml";);
 
 // Validate validates the CT_Picture and its children
 func (_aea *CT_Picture )Validate ()error {return _aea .ValidateWithPath ("\u0043\u0054\u005f\u0050\u0069\u0063\u0074\u0075\u0072\u0065");};func (_da *CT_Picture )MarshalXML (e *_c .Encoder ,start _c .StartElement )error {e .EncodeToken (start );_f :=_c .StartElement {Name :_c .Name {Local :"p\u0069\u0063\u003a\u006e\u0076\u0050\u0069\u0063\u0050\u0072"}};

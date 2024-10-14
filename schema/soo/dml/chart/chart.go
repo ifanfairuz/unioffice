@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chart ;import (_db "encoding/xml";_g "fmt";_a "github.com/unidoc/unioffice";_f "github.com/unidoc/unioffice/common/logger";_ba "github.com/unidoc/unioffice/schema/soo/dml";_e "github.com/unidoc/unioffice/schema/soo/dml/chartDrawing";_ec "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";
+package chart ;import (_db "encoding/xml";_g "fmt";_a "github.com/ifanfairuz/unioffice";_f "github.com/ifanfairuz/unioffice/common/logger";_ba "github.com/ifanfairuz/unioffice/schema/soo/dml";_e "github.com/ifanfairuz/unioffice/schema/soo/dml/chartDrawing";_ec "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";
 _b "regexp";_bc "strconv";);func (_deccf *ST_BarGrouping )UnmarshalXML (d *_db .Decoder ,start _db .StartElement )error {_effeg ,_deaebd :=d .Token ();if _deaebd !=nil {return _deaebd ;};if _egdffc ,_cbcdf :=_effeg .(_db .EndElement );_cbcdf &&_egdffc .Name ==start .Name {*_deccf =1;
 return nil ;};if _eacce ,_ecbfe :=_effeg .(_db .CharData );!_ecbfe {return _g .Errorf ("\u0065\u0078\u0070\u0065\u0063\u0074\u0065\u0064\u0020\u0063\u0068a\u0072\u0020\u0064\u0061\u0074\u0061\u002c\u0020\u0067\u006ft\u0020\u0025\u0054",_effeg );}else {switch string (_eacce ){case "":*_deccf =0;
 case "\u0070\u0065\u0072\u0063\u0065\u006e\u0074\u0053\u0074a\u0063\u006b\u0065\u0064":*_deccf =1;case "\u0063l\u0075\u0073\u0074\u0065\u0072\u0065d":*_deccf =2;case "\u0073\u0074\u0061\u006e\u0064\u0061\u0072\u0064":*_deccf =3;case "\u0073t\u0061\u0063\u006b\u0065\u0064":*_deccf =4;

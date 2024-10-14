@@ -13,9 +13,9 @@
 // OOXML document formats.
 //
 // Package common contains common properties used by the subpackages.
-package common ;import (_gf "archive/zip";_a "bytes";_f "encoding/xml";_ea "errors";_d "fmt";_cc "github.com/unidoc/unioffice";_eag "github.com/unidoc/unioffice/common/logger";_gdg "github.com/unidoc/unioffice/common/tempstorage";_de "github.com/unidoc/unioffice/common/tempstorage/diskstore";
-_adg "github.com/unidoc/unioffice/measurement";_ac "github.com/unidoc/unioffice/schema/soo/dml";_ff "github.com/unidoc/unioffice/schema/soo/ofc/custom_properties";_ge "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";_aa "github.com/unidoc/unioffice/schema/soo/ofc/extended_properties";
-_eca "github.com/unidoc/unioffice/schema/soo/pkg/content_types";_cg "github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties";_dc "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_c "github.com/unidoc/unioffice/zippkg";_gd "image";
+package common ;import (_gf "archive/zip";_a "bytes";_f "encoding/xml";_ea "errors";_d "fmt";_cc "github.com/ifanfairuz/unioffice";_eag "github.com/ifanfairuz/unioffice/common/logger";_gdg "github.com/ifanfairuz/unioffice/common/tempstorage";_de "github.com/ifanfairuz/unioffice/common/tempstorage/diskstore";
+_adg "github.com/ifanfairuz/unioffice/measurement";_ac "github.com/ifanfairuz/unioffice/schema/soo/dml";_ff "github.com/ifanfairuz/unioffice/schema/soo/ofc/custom_properties";_ge "github.com/ifanfairuz/unioffice/schema/soo/ofc/docPropsVTypes";_aa "github.com/ifanfairuz/unioffice/schema/soo/ofc/extended_properties";
+_eca "github.com/ifanfairuz/unioffice/schema/soo/pkg/content_types";_cg "github.com/ifanfairuz/unioffice/schema/soo/pkg/metadata/core_properties";_dc "github.com/ifanfairuz/unioffice/schema/soo/pkg/relationships";_c "github.com/ifanfairuz/unioffice/zippkg";_gd "image";
 _ "image/gif";_ "image/jpeg";_ "image/png";_ecb "os";_e "reflect";_gdd "regexp";_ad "strconv";_fd "strings";_bbe "time";);
 
 // SetApplication sets the name of the application that created the document.
@@ -451,7 +451,7 @@ _ffd .Null =_ge .NewNull ();_fdce .setOrReplaceProperty (_ffd );};func _eccf (_a
 _dgc :=_dbe .getNewProperty (name );_dgc .Filetime =&_gbc ;_dbe .setOrReplaceProperty (_dgc );};func UtcTimeFormat (t _bbe .Time )string {return t .Format (_gfd )+"\u0020\u0055\u0054\u0043"};
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/ifanfairuz/unioffice
 func (_ged AppProperties )Company ()string {if _ged ._baa .Company !=nil {return *_ged ._baa .Company ;};return "";};
 
 // GetPropertyByName returns a custom property selected by it's name.
@@ -475,7 +475,7 @@ func (_eaab CoreProperties )Modified ()_bbe .Time {return _eccf (_eaab ._dae .Mo
 func (_fa CoreProperties )SetModified (t _bbe .Time ){_fa ._dae .Modified =_gfgb (t ,"\u0064\u0063t\u0065\u0072\u006ds\u003a\u006d\u006f\u0064\u0069\u0066\u0069\u0065\u0064");};
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/ifanfairuz/unioffice
 func (_ffa AppProperties )Application ()string {if _ffa ._baa .Application !=nil {return *_ffa ._baa .Application ;};return "";};
 
 // Type returns the type of a relationship.

@@ -26,7 +26,7 @@
 // - "1 23/100" with fornat "0 0/100"
 // - "1.23E+00" with format "0.00E+00"
 // - "29:37:41s" with format `[h]:mm:ss"s"`
-package format ;import (_cf "bytes";_c "fmt";_fc "github.com/unidoc/unioffice/common/logger";_f "io";_g "math";_a "strconv";_e "strings";_cc "time";);const _fbc int =0;const _feg int =34;func _cff (_efb ,_gbf float64 ,_dac Format )[]byte {if len (_dac .Whole )==0{return nil ;
+package format ;import (_cf "bytes";_c "fmt";_fc "github.com/ifanfairuz/unioffice/common/logger";_f "io";_g "math";_a "strconv";_e "strings";_cc "time";);const _fbc int =0;const _feg int =34;func _cff (_efb ,_gbf float64 ,_dac Format )[]byte {if len (_dac .Whole )==0{return nil ;
 };_fcb :=_cc .Date (1899,12,30,0,0,0,0,_cc .UTC );_edc :=_fcb .Add (_cc .Duration (_gbf *float64 (24*_cc .Hour )));_edc =_fbbg (_edc );_baa :=_a .AppendFloat (nil ,_efb ,'f',-1,64);_bedc :=make ([]byte ,0,len (_baa ));_dgc :=0;_fbd :=1;_dgcc :for _bd :=len (_dac .Whole )-1;
 _bd >=0;_bd --{_gef :=len (_baa )-1-_dgc ;_ace :=_dac .Whole [_bd ];switch _ace .Type {case FmtTypeDigit :if _gef >=0{_bedc =append (_bedc ,_baa [_gef ]);_dgc ++;_fbd =_bd ;}else {_bedc =append (_bedc ,'0');};case FmtTypeDigitOpt :if _gef >=0{_bedc =append (_bedc ,_baa [_gef ]);
 _dgc ++;_fbd =_bd ;}else {for _fce :=_bd ;_fce >=0;_fce --{_bc :=_dac .Whole [_fce ];if _bc .Type ==FmtTypeLiteral {_bedc =append (_bedc ,_bc .Literal );};};break _dgcc ;};case FmtTypeDollar :for _bad :=_dgc ;_bad < len (_baa );_bad ++{_bedc =append (_bedc ,_baa [len (_baa )-1-_bad ]);

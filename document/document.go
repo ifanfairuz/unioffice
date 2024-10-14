@@ -21,10 +21,10 @@ Example:
 	run.SetText("foo")
 	doc.SaveToFile("foo.docx")
 */
-package document ;import (_fa "archive/zip";_fc "bytes";_cb "errors";_gb "fmt";_f "github.com/unidoc/unioffice";_gbc "github.com/unidoc/unioffice/color";_cc "github.com/unidoc/unioffice/common";_ac "github.com/unidoc/unioffice/common/axcontrol";_fe "github.com/unidoc/unioffice/common/logger";
-_abd "github.com/unidoc/unioffice/common/tempstorage";_df "github.com/unidoc/unioffice/internal/formatutils";_fd "github.com/unidoc/unioffice/internal/license";_dg "github.com/unidoc/unioffice/measurement";_dc "github.com/unidoc/unioffice/schema/schemas.microsoft.com/office/activeX";
-_dcb "github.com/unidoc/unioffice/schema/soo/dml";_gbd "github.com/unidoc/unioffice/schema/soo/dml/chart";_ef "github.com/unidoc/unioffice/schema/soo/dml/picture";_de "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_ggd "github.com/unidoc/unioffice/schema/soo/pkg/relationships";
-_gdb "github.com/unidoc/unioffice/schema/soo/wml";_eb "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml";_gg "github.com/unidoc/unioffice/vmldrawing";_gd "github.com/unidoc/unioffice/zippkg";_bd "image";_e "image/jpeg";_g "io";_b "math/rand";
+package document ;import (_fa "archive/zip";_fc "bytes";_cb "errors";_gb "fmt";_f "github.com/ifanfairuz/unioffice";_gbc "github.com/ifanfairuz/unioffice/color";_cc "github.com/ifanfairuz/unioffice/common";_ac "github.com/ifanfairuz/unioffice/common/axcontrol";_fe "github.com/ifanfairuz/unioffice/common/logger";
+_abd "github.com/ifanfairuz/unioffice/common/tempstorage";_df "github.com/ifanfairuz/unioffice/internal/formatutils";_fd "github.com/ifanfairuz/unioffice/internal/license";_dg "github.com/ifanfairuz/unioffice/measurement";_dc "github.com/ifanfairuz/unioffice/schema/schemas.microsoft.com/office/activeX";
+_dcb "github.com/ifanfairuz/unioffice/schema/soo/dml";_gbd "github.com/ifanfairuz/unioffice/schema/soo/dml/chart";_ef "github.com/ifanfairuz/unioffice/schema/soo/dml/picture";_de "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_ggd "github.com/ifanfairuz/unioffice/schema/soo/pkg/relationships";
+_gdb "github.com/ifanfairuz/unioffice/schema/soo/wml";_eb "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/vml";_gg "github.com/ifanfairuz/unioffice/vmldrawing";_gd "github.com/ifanfairuz/unioffice/zippkg";_bd "image";_e "image/jpeg";_g "io";_b "math/rand";
 _ag "os";_ae "path/filepath";_d "regexp";_ab "strings";_c "unicode";);func _cecf (_babg *_gdb .CT_Tbl ,_cbfgb ,_ccf map[int64 ]int64 ){for _ ,_geda :=range _babg .EG_ContentRowContent {for _ ,_gadb :=range _geda .Tr {for _ ,_dec :=range _gadb .EG_ContentCellContent {for _ ,_bcee :=range _dec .Tc {for _ ,_dcfbc :=range _bcee .EG_BlockLevelElts {for _ ,_ddee :=range _dcfbc .EG_ContentBlockContent {for _ ,_ggagd :=range _ddee .P {_dbfc (_ggagd ,_cbfgb ,_ccf );
 };for _ ,_edef :=range _ddee .Tbl {_cecf (_edef ,_cbfgb ,_ccf );};};};};};};};};
 
@@ -926,7 +926,7 @@ _ecfbd .FldChar .FldCharTypeAttr =_gdb .ST_FldCharTypeEnd ;};var _gaaf =[...]uin
 func (_fadgd RunProperties )GetColor ()_gbc .Color {if _gfag :=_fadgd ._bace .Color ;_gfag !=nil {_aabd :=_gfag .ValAttr ;if _aabd .ST_HexColorRGB !=nil {return _gbc .FromHex (*_aabd .ST_HexColorRGB );};};return _gbc .Color {};};
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_agfe Document )SetConformance (conformanceAttr _de .ST_ConformanceClass ){_agfe ._dbc .ConformanceAttr =conformanceAttr ;};
 
@@ -988,7 +988,7 @@ _dcgeb .BookmarkEnd =_dega ;_gcbde .EG_ContentRunContent =append (_gcbde .EG_Con
 };
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_cagf Document )SetStrict (strict bool ){if strict {_cagf ._dbc .ConformanceAttr =_de .ST_ConformanceClassStrict ;}else {_cagf ._dbc .ConformanceAttr =_de .ST_ConformanceClassTransitional ;};};func (_daba *Document )insertNumberingFromStyleProperties (_ecag Numbering ,_fgffg ParagraphStyleProperties ){_egab :=_fgffg .NumId ();
 _cbbd :=int64 (-1);if _egab > -1{for _ ,_ddaf :=range _ecag ._cgbg .Num {if _ddaf .NumIdAttr ==_egab {if _ddaf .AbstractNumId !=nil {_cbbd =_ddaf .AbstractNumId .ValAttr ;_fdcde :=false ;for _ ,_cbdg :=range _daba .Numbering ._cgbg .Num {if _cbdg .NumIdAttr ==_egab {_fdcde =true ;

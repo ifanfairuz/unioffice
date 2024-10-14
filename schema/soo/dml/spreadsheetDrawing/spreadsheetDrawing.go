@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package spreadsheetDrawing ;import (_e "encoding/xml";_d "fmt";_gb "github.com/unidoc/unioffice";_f "github.com/unidoc/unioffice/common/logger";_ed "github.com/unidoc/unioffice/schema/soo/dml";_ge "strconv";);
+package spreadsheetDrawing ;import (_e "encoding/xml";_d "fmt";_gb "github.com/ifanfairuz/unioffice";_f "github.com/ifanfairuz/unioffice/common/logger";_ed "github.com/ifanfairuz/unioffice/schema/soo/dml";_ge "strconv";);
 
 // Validate validates the To and its children
 func (_bgbg *To )Validate ()error {return _bgbg .ValidateWithPath ("\u0054\u006f")};const (ST_EditAsUnset ST_EditAs =0;ST_EditAsTwoCell ST_EditAs =1;ST_EditAsOneCell ST_EditAs =2;ST_EditAsAbsolute ST_EditAs =3;);func (_dfcc ST_EditAs )MarshalXMLAttr (name _e .Name )(_e .Attr ,error ){_bcce :=_e .Attr {};

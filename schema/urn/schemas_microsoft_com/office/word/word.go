@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package word ;import (_a "encoding/xml";_bg "fmt";_e "github.com/unidoc/unioffice";_ae "strconv";);func (_aab ST_WrapSide )ValidateWithPath (path string )error {switch _aab {case 0,1,2,3,4:default:return _bg .Errorf ("\u0025s\u003a\u0020\u006f\u0075t\u0020\u006f\u0066\u0020\u0072a\u006eg\u0065 \u0076\u0061\u006c\u0075\u0065\u0020\u0025d",path ,int (_aab ));
+package word ;import (_a "encoding/xml";_bg "fmt";_e "github.com/ifanfairuz/unioffice";_ae "strconv";);func (_aab ST_WrapSide )ValidateWithPath (path string )error {switch _aab {case 0,1,2,3,4:default:return _bg .Errorf ("\u0025s\u003a\u0020\u006f\u0075t\u0020\u006f\u0066\u0020\u0072a\u006eg\u0065 \u0076\u0061\u006c\u0075\u0065\u0020\u0025d",path ,int (_aab ));
 };return nil ;};func (_abe ST_WrapType )ValidateWithPath (path string )error {switch _abe {case 0,1,2,3,4,5:default:return _bg .Errorf ("\u0025s\u003a\u0020\u006f\u0075t\u0020\u006f\u0066\u0020\u0072a\u006eg\u0065 \u0076\u0061\u006c\u0075\u0065\u0020\u0025d",path ,int (_abe ));
 };return nil ;};
 

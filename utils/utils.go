@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package utils ;import (_f "bytes";_c "github.com/unidoc/unioffice/document";_e "github.com/unidoc/unioffice/document/convert";_cb "github.com/unidoc/unipdf/v3/model";);
+package utils ;import (_f "bytes";_c "github.com/ifanfairuz/unioffice/document";_e "github.com/ifanfairuz/unioffice/document/convert";_cb "github.com/ifanfairuz/unipdf/v3/model";);
 
 // GetNumPages will try to get actual document page count by converting the document to a PDF first
 // and then get the actual page count from the PDF result.

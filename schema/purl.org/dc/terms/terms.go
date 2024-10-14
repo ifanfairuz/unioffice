@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package terms ;import (_f "encoding/xml";_a "fmt";_dd "github.com/unidoc/unioffice";_b "github.com/unidoc/unioffice/common/logger";_fg "github.com/unidoc/unioffice/schema/purl.org/dc/elements";);
+package terms ;import (_f "encoding/xml";_a "fmt";_dd "github.com/ifanfairuz/unioffice";_b "github.com/ifanfairuz/unioffice/common/logger";_fg "github.com/ifanfairuz/unioffice/schema/purl.org/dc/elements";);
 
 // ValidateWithPath validates the DCMIType and its children, prefixing error messages with path
 func (_gad *DCMIType )ValidateWithPath (path string )error {return nil };func (_agg *LCC )UnmarshalXML (d *_f .Decoder ,start _f .StartElement )error {for {_cb ,_ad :=d .Token ();if _ad !=nil {return _a .Errorf ("\u0070a\u0072s\u0069\u006e\u0067\u0020\u004c\u0043\u0043\u003a\u0020\u0025\u0073",_ad );

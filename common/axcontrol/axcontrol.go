@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package axcontrol ;import (_f "bytes";_fc "encoding/binary";_d "errors";_b "fmt";_cg "github.com/unidoc/unioffice/common/tempstorage";_g "github.com/unidoc/unioffice/internal/mscfb";_dg "github.com/unidoc/unioffice/internal/mscfb/rw";_dc "github.com/unidoc/unioffice/schema/schemas.microsoft.com/office/activeX";
+package axcontrol ;import (_f "bytes";_fc "encoding/binary";_d "errors";_b "fmt";_cg "github.com/ifanfairuz/unioffice/common/tempstorage";_g "github.com/ifanfairuz/unioffice/internal/mscfb";_dg "github.com/ifanfairuz/unioffice/internal/mscfb/rw";_dc "github.com/ifanfairuz/unioffice/schema/schemas.microsoft.com/office/activeX";
 _ce "io";);type spinButtonExtraDataBlock struct{_ddbg uint32 ;_gefg uint32 ;};func (_gbf *controlBase )setMouseIconBytes (_eab []byte ){if _gbf ._aggd ._dcceg ==nil {_gbf ._aggd ._dcceg =&guidAndPicture {};};_gbf ._aggd ._dcceg .setStdPictureBytes (_eab );
 };type scrollBarExtraDataBlock struct{_ebbf uint32 ;_ggda uint32 ;};
 

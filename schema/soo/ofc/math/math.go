@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package math ;import (_b "encoding/xml";_a "fmt";_ca "github.com/unidoc/unioffice";_be "github.com/unidoc/unioffice/common/logger";_gc "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_g "strconv";);
+package math ;import (_b "encoding/xml";_a "fmt";_ca "github.com/ifanfairuz/unioffice";_be "github.com/ifanfairuz/unioffice/common/logger";_gc "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_g "strconv";);
 
 // Validate validates the CT_Char and its children
 func (_abag *CT_Char )Validate ()error {return _abag .ValidateWithPath ("\u0043T\u005f\u0043\u0068\u0061\u0072");};type CT_Integer255 struct{ValAttr int64 ;};

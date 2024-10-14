@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package drawing ;import (_d "github.com/unidoc/unioffice";_e "github.com/unidoc/unioffice/color";_b "github.com/unidoc/unioffice/measurement";_dg "github.com/unidoc/unioffice/schema/soo/dml";);
+package drawing ;import (_d "github.com/ifanfairuz/unioffice";_e "github.com/ifanfairuz/unioffice/color";_b "github.com/ifanfairuz/unioffice/measurement";_dg "github.com/ifanfairuz/unioffice/schema/soo/dml";);
 
 // X returns the inner wrapped XML type.
 func (_fg LineProperties )X ()*_dg .CT_LineProperties {return _fg ._df };type ShapeProperties struct{_gdf *_dg .CT_ShapeProperties };

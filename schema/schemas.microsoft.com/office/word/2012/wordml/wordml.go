@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package wordml ;import (_d "encoding/xml";_e "fmt";_a "github.com/unidoc/unioffice";_af "github.com/unidoc/unioffice/common/logger";_eb "github.com/unidoc/unioffice/schema/soo/dml";_ge "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_b "github.com/unidoc/unioffice/schema/soo/wml";
+package wordml ;import (_d "encoding/xml";_e "fmt";_a "github.com/ifanfairuz/unioffice";_af "github.com/ifanfairuz/unioffice/common/logger";_eb "github.com/ifanfairuz/unioffice/schema/soo/dml";_ge "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_b "github.com/ifanfairuz/unioffice/schema/soo/wml";
 _c "regexp";_g "time";);
 
 // ValidateWithPath validates the CT_Person and its children, prefixing error messages with path

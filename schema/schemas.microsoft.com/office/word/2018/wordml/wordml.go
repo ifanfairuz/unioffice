@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package wordml ;import (_e "encoding/xml";_be "fmt";_g "github.com/unidoc/unioffice";_ge "github.com/unidoc/unioffice/common/logger";_f "github.com/unidoc/unioffice/schema/soo/dml";_ba "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_d "time";
+package wordml ;import (_e "encoding/xml";_be "fmt";_g "github.com/ifanfairuz/unioffice";_ge "github.com/ifanfairuz/unioffice/common/logger";_f "github.com/ifanfairuz/unioffice/schema/soo/dml";_ba "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_d "time";
 );func ParseUnionST_AdjCoordinate (s string )(_f .ST_AdjCoordinate ,error ){return _f .ParseUnionST_AdjCoordinate (s );};func (_dd *CT_Extension )UnmarshalXML (d *_e .Decoder ,start _e .StartElement )error {for _ ,_da :=range start .Attr {if _da .Name .Local =="\u0075\u0072\u0069"{_ag ,_c :=_da .Value ,error (nil );
 if _c !=nil {return _c ;};_dd .UriAttr =&_ag ;continue ;};};_fd :for {_cf ,_ec :=d .Token ();if _ec !=nil {return _ec ;};switch _dg :=_cf .(type ){case _e .StartElement :switch _dg .Name {default:if _ef ,_bg :=_g .CreateElement (_dg );_bg !=nil {return _bg ;
 }else {if _ae :=d .DecodeElement (_ef ,&_dg );_ae !=nil {return _ae ;};_dd .Any =_ef ;};};case _e .EndElement :break _fd ;case _e .CharData :};};return nil ;};

@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chart ;import (_f "fmt";_e "github.com/unidoc/unioffice";_dg "github.com/unidoc/unioffice/color";_a "github.com/unidoc/unioffice/drawing";_bc "github.com/unidoc/unioffice/measurement";_eg "github.com/unidoc/unioffice/schema/soo/dml";_b "github.com/unidoc/unioffice/schema/soo/dml/chart";
+package chart ;import (_f "fmt";_e "github.com/ifanfairuz/unioffice";_dg "github.com/ifanfairuz/unioffice/color";_a "github.com/ifanfairuz/unioffice/drawing";_bc "github.com/ifanfairuz/unioffice/measurement";_eg "github.com/ifanfairuz/unioffice/schema/soo/dml";_b "github.com/ifanfairuz/unioffice/schema/soo/dml/chart";
 _c "math/rand";);func (_da CategoryAxis )SetMajorTickMark (m _b .ST_TickMark ){if m ==_b .ST_TickMarkUnset {_da ._cbb .MajorTickMark =nil ;}else {_da ._cbb .MajorTickMark =_b .NewCT_TickMark ();_da ._cbb .MajorTickMark .ValAttr =m ;};};
 
 // SetDirection changes the direction of the bar chart (bar or column).

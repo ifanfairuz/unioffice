@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package custom_properties ;import (_d "encoding/xml";_bd "fmt";_e "github.com/unidoc/unioffice";_a "github.com/unidoc/unioffice/common/logger";_bea "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";_c "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";
+package custom_properties ;import (_d "encoding/xml";_bd "fmt";_e "github.com/ifanfairuz/unioffice";_a "github.com/ifanfairuz/unioffice/common/logger";_bea "github.com/ifanfairuz/unioffice/schema/soo/ofc/docPropsVTypes";_c "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";
 _be "strconv";_g "time";);
 
 // ValidateWithPath validates the Properties and its children, prefixing error messages with path

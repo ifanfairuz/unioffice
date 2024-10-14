@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package activeX ;import (_c "encoding/xml";_d "fmt";_e "github.com/unidoc/unioffice";_fg "github.com/unidoc/unioffice/common/logger";);type CT_Ocx struct{ClassidAttr string ;LicenseAttr *string ;IdAttr *string ;PersistenceAttr ST_Persistence ;OcxPr []*CT_OcxPr ;
+package activeX ;import (_c "encoding/xml";_d "fmt";_e "github.com/ifanfairuz/unioffice";_fg "github.com/ifanfairuz/unioffice/common/logger";);type CT_Ocx struct{ClassidAttr string ;LicenseAttr *string ;IdAttr *string ;PersistenceAttr ST_Persistence ;OcxPr []*CT_OcxPr ;
 };func (_aeg *CT_Ocx )MarshalXML (e *_c .Encoder ,start _c .StartElement )error {start .Attr =append (start .Attr ,_c .Attr {Name :_c .Name {Local :"\u0061\u0078\u003a\u0063\u006c\u0061\u0073\u0073\u0069\u0064"},Value :_d .Sprintf ("\u0025\u0076",_aeg .ClassidAttr )});
 if _aeg .LicenseAttr !=nil {start .Attr =append (start .Attr ,_c .Attr {Name :_c .Name {Local :"\u0061\u0078\u003a\u006c\u0069\u0063\u0065\u006e\u0073\u0065"},Value :_d .Sprintf ("\u0025\u0076",*_aeg .LicenseAttr )});};if _aeg .IdAttr !=nil {start .Attr =append (start .Attr ,_c .Attr {Name :_c .Name {Local :"\u0072\u003a\u0069\u0064"},Value :_d .Sprintf ("\u0025\u0076",*_aeg .IdAttr )});
 };_dd ,_ddd :=_aeg .PersistenceAttr .MarshalXMLAttr (_c .Name {Local :"\u0061\u0078\u003a\u0070\u0065\u0072\u0073\u0069\u0073t\u0065\u006e\u0063\u0065"});if _ddd !=nil {return _ddd ;};start .Attr =append (start .Attr ,_dd );e .EncodeToken (start );if _aeg .OcxPr !=nil {_fgd :=_c .StartElement {Name :_c .Name {Local :"\u0061\u0078\u003a\u006f\u0063\u0078\u0050\u0072"}};

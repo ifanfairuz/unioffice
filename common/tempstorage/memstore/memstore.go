@@ -11,7 +11,7 @@
 
 // Package memstore implements tempStorage interface
 // by using memory as a storage
-package memstore ;import (_b "encoding/hex";_eea "errors";_d "fmt";_g "github.com/unidoc/unioffice/common/tempstorage";_ec "io";_ed "io/ioutil";_ecb "math/rand";_ee "sync";);
+package memstore ;import (_b "encoding/hex";_eea "errors";_d "fmt";_g "github.com/ifanfairuz/unioffice/common/tempstorage";_ec "io";_ed "io/ioutil";_ecb "math/rand";_ee "sync";);
 
 // SetAsStorage sets temp storage as a memory storage
 func SetAsStorage (){_fa :=memStorage {_bcd :_ee .Map {}};_g .SetAsStorage (&_fa )};

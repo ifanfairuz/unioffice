@@ -9,8 +9,8 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package vmldrawing ;import (_e "encoding/xml";_d "fmt";_cg "github.com/unidoc/unioffice";_aa "github.com/unidoc/unioffice/common/logger";_fa "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_cc "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel";
-_ec "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml";_c "strconv";_f "strings";);func NewContainer ()*Container {return &Container {}};
+package vmldrawing ;import (_e "encoding/xml";_d "fmt";_cg "github.com/ifanfairuz/unioffice";_aa "github.com/ifanfairuz/unioffice/common/logger";_fa "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_cc "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/office/excel";
+_ec "github.com/ifanfairuz/unioffice/schema/urn/schemas_microsoft_com/vml";_c "strconv";_f "strings";);func NewContainer ()*Container {return &Container {}};
 
 // NewShapeStyle accept value of string style attribute in v:shape and format it to generate ShapeStyle.
 func NewShapeStyle (style string )ShapeStyle {_da :=ShapeStyle {_af :0,_bb :0};_daa :=_f .Split (style ,"\u003b");for _ ,_cdd :=range _daa {_ac :=_f .Split (_cdd ,"\u003a");if len (_ac )!=2{continue ;};var _ebc error ;switch _ac [0]{case "\u0070\u006f\u0073\u0069\u0074\u0069\u006f\u006e":_da ._gg =_ac [1];

@@ -15,10 +15,10 @@
 // UniDoc End User License Agreement (EULA) that is available at:
 // https://unidoc.io/eula/
 // A trial license code for evaluation can be obtained at https://unidoc.io.
-package spreadsheet ;import (_ba "archive/zip";_eg "bytes";_edb "errors";_df "fmt";_b "github.com/unidoc/unioffice";_de "github.com/unidoc/unioffice/chart";_ce "github.com/unidoc/unioffice/color";_ga "github.com/unidoc/unioffice/common";_ff "github.com/unidoc/unioffice/common/logger";
-_fff "github.com/unidoc/unioffice/common/tempstorage";_cc "github.com/unidoc/unioffice/internal/formatutils";_gf "github.com/unidoc/unioffice/internal/license";_fg "github.com/unidoc/unioffice/measurement";_ccc "github.com/unidoc/unioffice/schema/soo/dml";
-_gfg "github.com/unidoc/unioffice/schema/soo/dml/chart";_cf "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing";_gd "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_fdf "github.com/unidoc/unioffice/schema/soo/sml";_fbc "github.com/unidoc/unioffice/spreadsheet/format";
-_ab "github.com/unidoc/unioffice/spreadsheet/formula";_fd "github.com/unidoc/unioffice/spreadsheet/reference";_bc "github.com/unidoc/unioffice/spreadsheet/update";_ae "github.com/unidoc/unioffice/vmldrawing";_da "github.com/unidoc/unioffice/zippkg";_ee "image";
+package spreadsheet ;import (_ba "archive/zip";_eg "bytes";_edb "errors";_df "fmt";_b "github.com/ifanfairuz/unioffice";_de "github.com/ifanfairuz/unioffice/chart";_ce "github.com/ifanfairuz/unioffice/color";_ga "github.com/ifanfairuz/unioffice/common";_ff "github.com/ifanfairuz/unioffice/common/logger";
+_fff "github.com/ifanfairuz/unioffice/common/tempstorage";_cc "github.com/ifanfairuz/unioffice/internal/formatutils";_gf "github.com/ifanfairuz/unioffice/internal/license";_fg "github.com/ifanfairuz/unioffice/measurement";_ccc "github.com/ifanfairuz/unioffice/schema/soo/dml";
+_gfg "github.com/ifanfairuz/unioffice/schema/soo/dml/chart";_cf "github.com/ifanfairuz/unioffice/schema/soo/dml/spreadsheetDrawing";_gd "github.com/ifanfairuz/unioffice/schema/soo/pkg/relationships";_fdf "github.com/ifanfairuz/unioffice/schema/soo/sml";_fbc "github.com/ifanfairuz/unioffice/spreadsheet/format";
+_ab "github.com/ifanfairuz/unioffice/spreadsheet/formula";_fd "github.com/ifanfairuz/unioffice/spreadsheet/reference";_bc "github.com/ifanfairuz/unioffice/spreadsheet/update";_ae "github.com/ifanfairuz/unioffice/vmldrawing";_da "github.com/ifanfairuz/unioffice/zippkg";_ee "image";
 _e "image/jpeg";_c "io";_gc "math";_eb "math/big";_g "os";_bb "path";_db "path/filepath";_ed "reflect";_ag "regexp";_d "sort";_fb "strconv";_a "strings";_dd "time";);
 
 // MakeComments constructs a new Comments wrapper.

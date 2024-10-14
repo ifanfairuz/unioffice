@@ -11,7 +11,7 @@
 
 // Package diskstore implements tempStorage interface
 // by using disk as a storage
-package diskstore ;import (_f "github.com/unidoc/unioffice/common/tempstorage";_eg "io/ioutil";_ga "os";_g "strings";);
+package diskstore ;import (_f "github.com/ifanfairuz/unioffice/common/tempstorage";_eg "io/ioutil";_ga "os";_g "strings";);
 
 // RemoveAll removes all files in the directory
 func (_bg diskStorage )RemoveAll (dir string )error {if _g .HasPrefix (dir ,_ga .TempDir ()){return _ga .RemoveAll (dir );};return nil ;};

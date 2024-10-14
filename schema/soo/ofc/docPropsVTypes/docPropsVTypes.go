@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package docPropsVTypes ;import (_f "encoding/xml";_fc "fmt";_ab "github.com/unidoc/unioffice";_dd "github.com/unidoc/unioffice/common/logger";_bb "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_b "regexp";_d "strconv";_g "time";);func (_ggga ST_ArrayBaseType )Validate ()error {return _ggga .ValidateWithPath ("")};
+package docPropsVTypes ;import (_f "encoding/xml";_fc "fmt";_ab "github.com/ifanfairuz/unioffice";_dd "github.com/ifanfairuz/unioffice/common/logger";_bb "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_b "regexp";_d "strconv";_g "time";);func (_ggga ST_ArrayBaseType )Validate ()error {return _ggga .ValidateWithPath ("")};
 
 
 // ValidateWithPath validates the Vector and its children, prefixing error messages with path

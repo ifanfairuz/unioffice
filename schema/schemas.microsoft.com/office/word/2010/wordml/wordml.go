@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package wordml ;import (_c "encoding/xml";_g "fmt";_fe "github.com/unidoc/unioffice";_e "github.com/unidoc/unioffice/common/logger";_fad "github.com/unidoc/unioffice/schema/soo/dml";_fa "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_d "github.com/unidoc/unioffice/schema/soo/wml";
+package wordml ;import (_c "encoding/xml";_g "fmt";_fe "github.com/ifanfairuz/unioffice";_e "github.com/ifanfairuz/unioffice/common/logger";_fad "github.com/ifanfairuz/unioffice/schema/soo/dml";_fa "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";_d "github.com/ifanfairuz/unioffice/schema/soo/wml";
 _fg "strconv";_f "time";);
 
 // ValidateWithPath validates the EG_RPrTextEffects and its children, prefixing error messages with path

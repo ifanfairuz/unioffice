@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package zippkg ;import (_b "archive/zip";_cf "bytes";_de "encoding/xml";_bd "fmt";_gg "github.com/unidoc/unioffice";_dd "github.com/unidoc/unioffice/algo";_ed "github.com/unidoc/unioffice/common/tempstorage";_e "github.com/unidoc/unioffice/schema/soo/pkg/relationships";
+package zippkg ;import (_b "archive/zip";_cf "bytes";_de "encoding/xml";_bd "fmt";_gg "github.com/ifanfairuz/unioffice";_dd "github.com/ifanfairuz/unioffice/algo";_ed "github.com/ifanfairuz/unioffice/common/tempstorage";_e "github.com/ifanfairuz/unioffice/schema/soo/pkg/relationships";
 _bf "io";_a "path";_c "sort";_bff "strings";_d "time";);
 
 // Decode unmarshals the content of a *zip.File as XML to a given destination.

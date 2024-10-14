@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chartDrawing ;import (_f "encoding/xml";_d "fmt";_cb "github.com/unidoc/unioffice";_ea "github.com/unidoc/unioffice/common/logger";_b "github.com/unidoc/unioffice/schema/soo/dml";_c "strconv";);func NewCT_Shape ()*CT_Shape {_eacf :=&CT_Shape {};
+package chartDrawing ;import (_f "encoding/xml";_d "fmt";_cb "github.com/ifanfairuz/unioffice";_ea "github.com/ifanfairuz/unioffice/common/logger";_b "github.com/ifanfairuz/unioffice/schema/soo/dml";_c "strconv";);func NewCT_Shape ()*CT_Shape {_eacf :=&CT_Shape {};
 _eacf .NvSpPr =NewCT_ShapeNonVisual ();_eacf .SpPr =_b .NewCT_ShapeProperties ();return _eacf ;};
 
 // ValidateWithPath validates the CT_GroupShapeNonVisual and its children, prefixing error messages with path

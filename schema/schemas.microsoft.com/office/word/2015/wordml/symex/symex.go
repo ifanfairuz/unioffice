@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package symex ;import (_f "encoding/xml";_ff "fmt";_fg "github.com/unidoc/unioffice";);
+package symex ;import (_f "encoding/xml";_ff "fmt";_fg "github.com/ifanfairuz/unioffice";);
 
 // Validate validates the CT_SymEx and its children
 func (_ea *CT_SymEx )Validate ()error {return _ea .ValidateWithPath ("\u0043\u0054\u005f\u0053\u0079\u006d\u0045\u0078");};func (_dcf *SymEx )UnmarshalXML (d *_f .Decoder ,start _f .StartElement )error {_dcf .CT_SymEx =*NewCT_SymEx ();for _ ,_be :=range start .Attr {if _be .Name .Local =="\u0066\u006f\u006e\u0074"{_aag ,_bf :=_be .Value ,error (nil );

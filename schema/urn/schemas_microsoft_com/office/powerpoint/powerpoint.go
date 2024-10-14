@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package powerpoint ;import (_b "encoding/xml";_f "fmt";_bf "github.com/unidoc/unioffice";);func (_fca *Textdata )UnmarshalXML (d *_b .Decoder ,start _b .StartElement )error {_fca .CT_Rel =*NewCT_Rel ();for _ ,_aaf :=range start .Attr {if _aaf .Name .Local =="\u0069\u0064"{_fg ,_ebe :=_aaf .Value ,error (nil );
+package powerpoint ;import (_b "encoding/xml";_f "fmt";_bf "github.com/ifanfairuz/unioffice";);func (_fca *Textdata )UnmarshalXML (d *_b .Decoder ,start _b .StartElement )error {_fca .CT_Rel =*NewCT_Rel ();for _ ,_aaf :=range start .Attr {if _aaf .Name .Local =="\u0069\u0064"{_fg ,_ebe :=_aaf .Value ,error (nil );
 if _ebe !=nil {return _ebe ;};_fca .IdAttr =&_fg ;continue ;};};for {_ed ,_ce :=d .Token ();if _ce !=nil {return _f .Errorf ("p\u0061r\u0073\u0069\u006e\u0067\u0020\u0054\u0065\u0078t\u0064\u0061\u0074\u0061: \u0025\u0073",_ce );};if _bfg ,_fcba :=_ed .(_b .EndElement );
 _fcba &&_bfg .Name ==start .Name {break ;};};return nil ;};type CT_Rel struct{IdAttr *string ;};
 

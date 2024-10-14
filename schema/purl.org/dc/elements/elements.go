@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package elements ;import (_c "encoding/xml";_g "fmt";_e "github.com/unidoc/unioffice";_af "github.com/unidoc/unioffice/common/logger";);func NewElementContainer ()*ElementContainer {_gac :=&ElementContainer {};return _gac };
+package elements ;import (_c "encoding/xml";_g "fmt";_e "github.com/ifanfairuz/unioffice";_af "github.com/ifanfairuz/unioffice/common/logger";);func NewElementContainer ()*ElementContainer {_gac :=&ElementContainer {};return _gac };
 
 // ValidateWithPath validates the ElementContainer and its children, prefixing error messages with path
 func (_ag *ElementContainer )ValidateWithPath (path string )error {for _faa ,_ge :=range _ag .Choice {if _gg :=_ge .ValidateWithPath (_g .Sprintf ("\u0025\u0073\u002f\u0043\u0068\u006f\u0069\u0063\u0065\u005b\u0025\u0064\u005d",path ,_faa ));_gg !=nil {return _gg ;

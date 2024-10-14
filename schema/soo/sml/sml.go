@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package sml ;import (_c "encoding/xml";_a "fmt";_ff "github.com/unidoc/unioffice";_dc "github.com/unidoc/unioffice/common/logger";_b "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing";_ef "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";
+package sml ;import (_c "encoding/xml";_a "fmt";_ff "github.com/ifanfairuz/unioffice";_dc "github.com/ifanfairuz/unioffice/common/logger";_b "github.com/ifanfairuz/unioffice/schema/soo/dml/spreadsheetDrawing";_ef "github.com/ifanfairuz/unioffice/schema/soo/ofc/sharedTypes";
 _fc "strconv";_f "strings";_d "time";);func NewCT_Dialogsheet ()*CT_Dialogsheet {_cdgc :=&CT_Dialogsheet {};return _cdgc };type CT_RangePr struct{
 
 // Source Data Set Beginning Range
